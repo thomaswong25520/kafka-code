@@ -1,0 +1,10 @@
+1- launch 2 dockers service:
+    - zookeeper
+    - kafka
+2- launch 3 brokers
+3- the idea of this hands-on is
+    - to view the ephemeral node being created on zookeeper whenever a broker is launched
+    - view the first broker being labelized as controller
+    - view the logging on zookeeper whenever a broker is spawned/stopped
+
+this will be made using confluent-kafka-python
